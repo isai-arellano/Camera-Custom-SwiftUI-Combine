@@ -26,8 +26,10 @@ struct FrameView: View {
                     .clipped()
             }
         }else {
-             Color.black
-            //EmptyView()
+            Text("Tienes que aceptar los permisos")
+            EmptyView()
+            //Color.black
+            
         }
     }
 }

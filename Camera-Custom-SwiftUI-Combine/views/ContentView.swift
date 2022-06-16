@@ -16,13 +16,13 @@ struct ContentView: View {
             FrameView(image: model.frame)
                 .edgesIgnoringSafeArea(.all)
             
-            /*ErrorView(error: model.error)
+            ErrorView(error: model.error)
             
             ControlView(
                 comicSelected: $model.comicFilter,
                 monoSelected: $model.monoFilter,
                 crystalSelected: $model.crystalFilter
-            )*/
+            )
             
         }
     }

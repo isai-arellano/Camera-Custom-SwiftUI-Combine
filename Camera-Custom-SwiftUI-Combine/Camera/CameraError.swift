@@ -29,7 +29,7 @@ extension CameraError: LocalizedError {
         case .createCaptureInput(let error):
             return "Creating capture input for camera: \(error.localizedDescription)"
         case .deniedAuthorization:
-            return "Camera ccess denied"
+            return "Camera access denied"
         case .restrictedAuthorization:
             return "Atteping to access a restricted capture device"
         case .unknownAuthorization:
