@@ -11,6 +11,16 @@
 		4E04CCCB285B8A4B005F0DB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCCA285B8A4B005F0DB5 /* ContentView.swift */; };
 		4E04CCCD285B8A4E005F0DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E04CCCC285B8A4E005F0DB5 /* Assets.xcassets */; };
 		4E04CCD0285B8A4E005F0DB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E04CCCF285B8A4E005F0DB5 /* Preview Assets.xcassets */; };
+		4E04CCDC285B8B75005F0DB5 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCDB285B8B75005F0DB5 /* CameraError.swift */; };
+		4E04CCDE285BACD7005F0DB5 /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCDD285BACD7005F0DB5 /* CGImageExtension.swift */; };
+		4E04CCE0285BB2DD005F0DB5 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCDF285BB2DC005F0DB5 /* ContentViewModel.swift */; };
+		4E04CCE2285BB2EF005F0DB5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E04CCE1285BB2EF005F0DB5 /* Launch Screen.storyboard */; };
+		4E04CCE4285BB3DA005F0DB5 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCE3285BB3DA005F0DB5 /* CameraManager.swift */; };
+		4E04CCE6285BB789005F0DB5 /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCE5285BB788005F0DB5 /* FrameManager.swift */; };
+		4E04CCE8285BB874005F0DB5 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCE7285BB874005F0DB5 /* FrameView.swift */; };
+		4E04CCEA285BB9D9005F0DB5 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCE9285BB9D9005F0DB5 /* ErrorView.swift */; };
+		4E04CCEC285BBAC4005F0DB5 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCEB285BBAC4005F0DB5 /* ControlView.swift */; };
+		4E04CCEE285BBBC0005F0DB5 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04CCED285BBBC0005F0DB5 /* ToggleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		4E04CCCA285B8A4B005F0DB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E04CCCC285B8A4E005F0DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E04CCCF285B8A4E005F0DB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E04CCDB285B8B75005F0DB5 /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		4E04CCDD285BACD7005F0DB5 /* CGImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		4E04CCDF285BB2DC005F0DB5 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		4E04CCE1285BB2EF005F0DB5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4E04CCE3285BB3DA005F0DB5 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		4E04CCE5285BB788005F0DB5 /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		4E04CCE7285BB874005F0DB5 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		4E04CCE9285BB9D9005F0DB5 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		4E04CCEB285BBAC4005F0DB5 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		4E04CCED285BBBC0005F0DB5 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +71,14 @@
 		4E04CCC7285B8A4B005F0DB5 /* Camera-Custom-SwiftUI-Combine */ = {
 			isa = PBXGroup;
 			children = (
+				4E04CCD6285B8ADF005F0DB5 /* Camera */,
+				4E04CCD7285B8AF2005F0DB5 /* Extensions */,
+				4E04CCD9285B8B07005F0DB5 /* ViewModels */,
+				4E04CCDA285B8B11005F0DB5 /* views */,
 				4E04CCC8285B8A4B005F0DB5 /* Camera_Custom_SwiftUI_CombineApp.swift */,
-				4E04CCCA285B8A4B005F0DB5 /* ContentView.swift */,
 				4E04CCCC285B8A4E005F0DB5 /* Assets.xcassets */,
 				4E04CCCE285B8A4E005F0DB5 /* Preview Content */,
+				4E04CCE1285BB2EF005F0DB5 /* Launch Screen.storyboard */,
 			);
 			path = "Camera-Custom-SwiftUI-Combine";
 			sourceTree = "<group>";
@@ -65,6 +89,44 @@
 				4E04CCCF285B8A4E005F0DB5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E04CCD6285B8ADF005F0DB5 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4E04CCDB285B8B75005F0DB5 /* CameraError.swift */,
+				4E04CCE3285BB3DA005F0DB5 /* CameraManager.swift */,
+				4E04CCE5285BB788005F0DB5 /* FrameManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		4E04CCD7285B8AF2005F0DB5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E04CCDD285BACD7005F0DB5 /* CGImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E04CCD9285B8B07005F0DB5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4E04CCDF285BB2DC005F0DB5 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4E04CCDA285B8B11005F0DB5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4E04CCCA285B8A4B005F0DB5 /* ContentView.swift */,
+				4E04CCE7285BB874005F0DB5 /* FrameView.swift */,
+				4E04CCE9285BB9D9005F0DB5 /* ErrorView.swift */,
+				4E04CCEB285BBAC4005F0DB5 /* ControlView.swift */,
+				4E04CCED285BBBC0005F0DB5 /* ToggleButton.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E04CCE2285BB2EF005F0DB5 /* Launch Screen.storyboard in Resources */,
 				4E04CCD0285B8A4E005F0DB5 /* Preview Assets.xcassets in Resources */,
 				4E04CCCD285B8A4E005F0DB5 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E04CCE8285BB874005F0DB5 /* FrameView.swift in Sources */,
 				4E04CCCB285B8A4B005F0DB5 /* ContentView.swift in Sources */,
 				4E04CCC9285B8A4B005F0DB5 /* Camera_Custom_SwiftUI_CombineApp.swift in Sources */,
+				4E04CCDC285B8B75005F0DB5 /* CameraError.swift in Sources */,
+				4E04CCEC285BBAC4005F0DB5 /* ControlView.swift in Sources */,
+				4E04CCDE285BACD7005F0DB5 /* CGImageExtension.swift in Sources */,
+				4E04CCE4285BB3DA005F0DB5 /* CameraManager.swift in Sources */,
+				4E04CCE6285BB789005F0DB5 /* FrameManager.swift in Sources */,
+				4E04CCEE285BBBC0005F0DB5 /* ToggleButton.swift in Sources */,
+				4E04CCEA285BB9D9005F0DB5 /* ErrorView.swift in Sources */,
+				4E04CCE0285BB2DD005F0DB5 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +342,7 @@
 				DEVELOPMENT_TEAM = ABXQH5S54D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +372,7 @@
 				DEVELOPMENT_TEAM = ABXQH5S54D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
